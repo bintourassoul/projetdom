@@ -4,12 +4,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dom</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/33e495fb35.js" crossorigin="anonyme"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css » rel="stylesheet » integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6 » crossorigin="anonyme">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.13/dist/css/uikit.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css » rel="stylesheet » integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonyme">
+    <script src="https://kit.fontawesome.com/5e0ae01de3.js" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="style.css">
     
 </head>
 <body>
+  
 <header>
   <div class="logo">
 <p>hijab <span>fashion</span></p>
@@ -20,116 +22,109 @@
     <li><a href="#">A propos</a></li>
     <li><a href="#">Contact</a></li>
   </ul>
+  <img id="clipart" src="images/clipart.png" alt="">
   <button class="login_btn">Connexion</button>
 </header>
-        <section id="home">
-                <div class="left">
-              <h1>Acheter <span> vos chaussures </span>chez nous</h1>
-              <p><strong>hijab fashion</strong>   est une boutique en ligne qui vend des vetements, chaussures de toutes sortes des produits cosmétiques et d'autres plein d'articles l'elegance chez vous</p>
-              <a href="#">Faites votre choix</a>
-                </div>
-              <div class="right">
-                   <img src="images/basket7.jpeg" alt="paire1">
-              </div>
-        </section> 
-<section id="baskets">
-  <h1 class="section_title" >Nos articles</h1>
-<div class="images">
-  <ul>
-    <li class="basket">
-      <div>
-        <img src="images/basket1.png" alt="basket1">
+<div class ='container'>
+  <div class ='row'>
+      <div class ='col-md-4 col-lg-4'>
+        <div class="card" style="width: 18rem;">
+            <img src="images/basket1.png" class="card-img-top" alt= "...">
+            <div class="card-body">
+              <h3 class="card-title">basket3</h3>
+              <h4 class="card-text">$100</h4>
+              <a class="btn btn-primary">Ajouter au panier</a >
+            </div>
+          </div>
       </div>
-      <span class="prix">10000</span>
-      <a href="#">Acheter maintenant</a>
 
-    </li>
-    <li class="basket">
-      <div>
-        <img src="images/basket2.jpeg" alt="basket2">
+      <div class = 'col-md-4 col-lg-4'>
+        <div class="card" style="width: 18rem;">
+            <img src="images/basket2.jpeg" class="card-img-top" alt= "...">
+            <div class="card-body">
+              <h3 class="card-title">basket5</h3>
+              <h4 class="card-text">$80</h4>
+              <a class="btn btn-primary">Ajouter au panier</a >
+            </div>
+          </div>
       </div>
-      <span class="prix">14000</span>
-      <a href="#">Acheter maintenant</a>
 
-    </li>
-    <li class="basket">
-      <div>
-        <img src="images/basket3.jpeg" alt="basket3">
+      <div class = 'col-md-4 col-lg-4'>
+        <div class="card" style="width: 18rem;">
+            <img src="images/basket3.jpeg" class="card-img-top" alt= "... ">
+            <div class="card-body">
+              <h3 class="card-title">basket1</h3>
+              <h4 class="card-text">$50</h4>
+              <a class="btn btn-primary">Ajouter au panier</a >
+            </div>
+          </div>
       </div>
-      <span class="prix">18000</span>
-      <a href="#">Acheter maintenant</a>
 
-    </li>
-    <li class="basket">
-      <div>
-        <img src="images/basket4.jpeg" alt="basket4">
+    
+      <div class = 'col-md-4 col-lg-4'>
+        <div class="card" style="width: 18rem;">
+            <img src="images/basket4.jpeg" class="card-img-top" alt= "...">
+            <div class="card-body">
+              <h3 class="card-title">Pink Shoe</h3>
+              <h4 class="card-text">$100</h4>
+              <a class="btn btn-primary">Ajouter au panier</a >
+            </div>
+          </div>
       </div>
-      <span class="prix">10000</span>
-      <a href="#">Acheter maintenant</a>
 
-    </li>
-    <li class="basket">
-      <div>
-        <img src="images/basket5.jpeg" alt="basket5">
+      <div class ='col-md-4 col-lg-4'>
+        <div class="card" style="width: 18rem;">
+            <img src="images/basket5.jpeg" class="card-img-top" alt= "...">
+            <div class="card-body">
+              <h3 class="card-title">basket2</h3>
+              <h4 class="card-text">$30</h4>
+              <a class="btn btn-primary">Ajouter au panier</a >
+            </div>
+          </div>
       </div>
-      <span class="prix">13000</span>
-      <a href="#">Acheter maintenant</a>
+  </div>
+<div class="uk-overflow-auto container" style ='width: 70%'>
+<table class="uk-table uk-table-hover uk-table-middle uk-table-divider ">
+    <thead>
+        <tr>
+            <th class="uk-table-shrink"></th >
+            <th class="uk-table-small sty"><h3>ITEM</h3></th>
+            <th class="uk-table-small"></th >
+            <th class="uk-width-small sty"><h3>PRICE</h3></th >
+            <th class="uk-table-shrink uk-text-small sty"><h3>QUANTITY</h3></th >
+            <th class="uk-table-shrink uk-text-small sty"><h3>TOTAL</h3></th >
 
-    </li>
-    <li class="basket">
-      <div>
-        <img src="images/basket6.jpeg" alt="basket6">
-      </div>
-      <span class="prix">11000</span>
-      <a href="#">Acheter maintenant</a>
-
-    </li>
-    <li class="basket">
-      <div>
-        <img src="images/basket7.jpeg" alt="basket7">
-      </div>
-      <span class="prix">15000</span>
-      <a href="#">Acheter maintenant</a>
-    </li>
-    <li class="basket">
-      <div>
-        <img src="images/basket8.jpeg" alt="basket8">
-      </div>
-      <span class="prix">12000</span>
-      <a href="#">Acheter maintenant</a>
-    </li>
-  </ul>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><input class="uk-checkbox" type="checkbox"></td>
+            <td><img class="uk-preserve-width uk-border-circle" src="images/basket6.jpeg" width="40" alt=""></td>
+            <td class="uk-table-link">
+                <h3 class ="item-name">basket2</h3>
+            </td>
+            <td class="uk-text-truncate item-price"><h3>$100</h3></td>
+            <td><input type = 'number' class = 'num' value = '1'></td>
+            <td class="uk-text-truncate total-price"><h3>$100</h3></td>
+            <td><button class="uk-button uk-button-danger" type="button">Remove</button></td>
+        </tr>
+    </tbody>
+    <tr>
+      <td><input class="uk-checkbox" type="checkbox"></td>
+      <td><img class="uk-preserve-width uk-border-circle" width="40" alt=""></td>
+      <td class="uk-table-link">
+          <h3 class ="item-name"><strong>Grand-Total</strong></h3>
+      </td>
+      <td class="uk-text-truncate"><h3></h3></td>
+      <td class="uk-text-truncate"><h3></h3></td>
+      <td class="uk-text-truncate grand-total"><h3><strong>$0</strong></h3></td>
+      
+  </tr>
+</table>
 </div>
-
-     
-<h4>Acheter cet article</h4>
-<img src="images/basket1.png" width="10%" />
-
-<br />
-<br />
-
-<span id="affichageNombreArticle"></span>
-
-
-<br />
-<br />
-
-<span id="prix"></span>
-
-<br />
-<br />
-  <button type="button" id="augmenterNombreArticle" width = "700">+</button>
-  <br>
-  <br>
-    <button type="button" id="reduireNombreArticle" width = "700">-</button>
-
-    <button type="button" id="btn_remove" width = "700" >remove</button>
-</div>
-
-<script src="index.js"></script>
-
-
 
 <footer>copyrightHF@2022</footer>
+<script src="index.js"></script>
+
 </body>
 </html>
